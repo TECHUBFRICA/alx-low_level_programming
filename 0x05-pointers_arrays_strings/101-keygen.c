@@ -1,24 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 /**
- * main - generates keygen.
- * Return: 0 Always.
+ * _atoi - delete characters and let only numbers
+ * @s: string
+ * Return: integer
  */
-int main(void)
+int _keygen.c(char *s)
 {
-	int r = 0, c = 0;
-	time_t t;
+	int i, value, sign;
 
-	srand((unsigned int) time(&t));
-	while (c < 2772)
-	{
-		r = rand() % 128;
-		if ((c + r) > 2772)
-			break;
-		c = c + r;
-		printf("%c", r);
-	}
-	printf("%c\n", (2772 - c));
-	return (0);
+
+	return (value);
 }
