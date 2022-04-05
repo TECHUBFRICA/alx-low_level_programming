@@ -5,7 +5,7 @@
  * create_array - create an array of chars, and initialize with specific char
  *@size: size of array
  *@c: specific char
- *Return: char pointer to malloc created memory or NULL if error
+ *Return: char pointer to malloc created memory address or NULL if error
  */
 
 char *create_array(unsigned int size, char c)
@@ -21,7 +21,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 
 	for (i = 0; i < size; i++)
-		a[i] =c;
+		a[i] = c;
 
 	return (a);
 }
